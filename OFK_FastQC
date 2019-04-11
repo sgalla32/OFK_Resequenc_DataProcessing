@@ -1,0 +1,113 @@
+#!/bin/sh
+
+/home/stephanie/FastQC/fastqc /media/stephanie/Data/Resequencing/OFK/I00578-L1_S4_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00578-L1_S4_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00579-L1_S5_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00579-L1_S5_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00580-L1_S6_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00580-L1_S6_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00581-L1_S7_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00581-L1_S7_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00582-L1_S8_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00582-L1_S8_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00583-L1_S9_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00583-L1_S9_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00584-L1_S10_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00584-L1_S10_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00585-L1_S11_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00585-L1_S11_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00586-L1_S12_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00586-L1_S12_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00587-L1_S13_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00587-L1_S13_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00588-L1_S14_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00588-L1_S14_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00589-L1_S15_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00589-L1_S15_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00590-L1_S16_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00590-L1_S16_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00591-L1_S17_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00591-L1_S17_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00592-L1_S18_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00592-L1_S18_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00593-L1_S19_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00593-L1_S19_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00594-L1_S20_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00594-L1_S20_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00595-L1_S21_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00595-L1_S21_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00596-L1_S22_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00596-L1_S22_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00597-L1_S23_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00597-L1_S23_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00598-L1_S24_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00598-L1_S24_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00599-L1_S25_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00599-L1_S25_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00600-L1_S26_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00600-L1_S26_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00601-L1_S27_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00601-L1_S27_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00602-L1_S28_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00602-L1_S28_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00603-L1_S29_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00603-L1_S29_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00604-L1_S30_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00604-L1_S30_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00605-L1_S31_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00605-L1_S31_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00606-L1_S32_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00606-L1_S32_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00607-L1_S33_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00607-L1_S33_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00608-L1_S34_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00608-L1_S34_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00609-L1_S35_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00609-L1_S35_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00610-L1_S36_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00610-L1_S36_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00611-L1_S37_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00611-L1_S37_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00612-L1_S38_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00612-L1_S38_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00613-L1_S39_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00613-L1_S39_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00614-L1_S40_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00614-L1_S40_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00615-L1_S41_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00615-L1_S41_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00616-L1_S42_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00616-L1_S42_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00617-L1_S43_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00617-L1_S43_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00618-L1_S44_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00618-L1_S44_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00619-L1_S45_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00619-L1_S45_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00620-L1_S46_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00620-L1_S46_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00621-L1_S47_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00621-L1_S47_L004_R2_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00622-L1_S48_L004_R1_001.fastq.gz \
+/media/stephanie/Data/Resequencing/OFK/I00622-L1_S48_L004_R2_001.fastq.gz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
