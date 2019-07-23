@@ -1,0 +1,190 @@
+#!/bin/sh
+
+#################################
+#Bowtie mapping
+#################################
+
+cd /data/trimmed_fastq
+
+bowtie2-build /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00578-L1_S4_L004_R1_001_val_1.fq.gz -2 I00578-L1_S4_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00578.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00580-L1_S6_L004_R1_001_val_1.fq.gz -2 I00580-L1_S6_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00580.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00581-L1_S7_L004_R1_001_val_1.fq.gz -2 I00581-L1_S7_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00581.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00582-L1_S8_L004_R1_001_val_1.fq.gz -2 I00582-L1_S8_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00582.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00583-L1_S9_L004_R1_001_val_1.fq.gz -2 I00583-L1_S9_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00583.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00584-L1_S10_L004_R1_001_val_1.fq.gz -2 I00584-L1_S10_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00584.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00585-L1_S11_L004_R1_001_val_1.fq.gz -2 I00585-L1_S11_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00585.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00586-L1_S12_L004_R1_001_val_1.fq.gz -2 I00586-L1_S12_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00586.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00587-L1_S13_L004_R1_001_val_1.fq.gz -2 I00587-L1_S13_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00587.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00588-L1_S14_L004_R1_001_val_1.fq.gz -2 I00588-L1_S14_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00588.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00589-L1_S15_L004_R1_001_val_1.fq.gz -2 I00589-L1_S15_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00589.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00590-L1_S16_L004_R1_001_val_1.fq.gz -2 I00590-L1_S16_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00590.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00591-L1_S17_L004_R1_001_val_1.fq.gz -2 I00591-L1_S17_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00591.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00592-L1_S18_L004_R1_001_val_1.fq.gz -2 I00592-L1_S18_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00592.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00593-L1_S19_L004_R1_001_val_1.fq.gz -2 I00593-L1_S19_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00593.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00594-L1_S20_L004_R1_001_val_1.fq.gz -2 I00594-L1_S20_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00594.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00595-L1_S21_L004_R1_001_val_1.fq.gz -2 I00595-L1_S21_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00595.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00596-L1_S22_L004_R1_001_val_1.fq.gz -2 I00596-L1_S22_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00596.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00597-L1_S23_L004_R1_001_val_1.fq.gz -2 I00597-L1_S23_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00597.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00598-L1_S24_L004_R1_001_val_1.fq.gz -2 I00598-L1_S24_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00598.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00599-L1_S25_L004_R1_001_val_1.fq.gz -2 I00599-L1_S25_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00599.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00600-L1_S26_L004_R1_001_val_1.fq.gz -2 I00600-L1_S26_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00600.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00601-L1_S27_L004_R1_001_val_1.fq.gz -2 I00601-L1_S27_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00601.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00602-L1_S28_L004_R1_001_val_1.fq.gz -2 I00602-L1_S28_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00602.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00603-L1_S29_L004_R1_001_val_1.fq.gz -2 I00603-L1_S29_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00603.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00604-L1_S30_L004_R1_001_val_1.fq.gz -2 I00604-L1_S30_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00604.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00605-L1_S31_L004_R1_001_val_1.fq.gz -2 I00605-L1_S31_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00605.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00606-L1_S32_L004_R1_001_val_1.fq.gz -2 I00606-L1_S32_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00606.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00607-L1_S33_L004_R1_001_val_1.fq.gz -2 I00607-L1_S33_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00607.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00608-L1_S34_L004_R1_001_val_1.fq.gz -2 I00608-L1_S34_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00608.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00609-L1_S35_L004_R1_001_val_1.fq.gz -2 I00609-L1_S35_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00609.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00610-L1_S36_L004_R1_001_val_1.fq.gz -2 I00610-L1_S36_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00610.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00611-L1_S37_L004_R1_001_val_1.fq.gz -2 I00611-L1_S37_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00611.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00612-L1_S38_L004_R1_001_val_1.fq.gz -2 I00612-L1_S38_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00612.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00613-L1_S39_L004_R1_001_val_1.fq.gz -2 I00613-L1_S39_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00613.bam
+
+bowtie2 -p 32 -x /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -1 I00614-L1_S40_L004_R1_001_val_1.fq.gz -2 I00614-L1_S40_L004_R2_001_val_2.fq.gz -X 600 -I 0 | samtools view -@ 4 -bS - > /data/unsorted_bam/OFK_pe_I00614.bam
+
+
+############################
+#Sort bam files
+############################
+
+cd /data/unsorted_bam
+
+for sample in *
+do samtools sort -T /data/sorted_BAM/$sample -o /data/sorted_BAM/$sample $sample
+
+done
+
+
+############################
+
+#split_bamfiles_tasks.pl
+
+############################
+
+perl split_bamfiles_tasks.pl -B -b /scripts/Split_Bamfiles/OFK_sorted_BAMfiles.txt -g /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -n 32 -o /data/Split_Bamfiles > list_of_tasks.sh
+
+bash list_of_tasks.sh
+
+############################
+
+#Samtools -mpileup
+
+############################
+#!/bin/sh
+/data/mpileup_1June2019/List_OFK_unsplit_bams.txt
+
+
+
+
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/1/part1.bcf -O bcf -b /data/Split_Bamfiles/1/OFK.1.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/2/part2.bcf -O bcf -b /data/Split_Bamfiles/2/OFK.2.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/3/part3.bcf -O bcf -b /data/Split_Bamfiles/3/OFK.3.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/4/part4.bcf -O bcf -b /data/Split_Bamfiles/4/OFK.4.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/5/part5.bcf -O bcf -b /data/Split_Bamfiles/5/OFK.5.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/6/part6.bcf -O bcf -b /data/Split_Bamfiles/6/OFK.6.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/7/part7.bcf -O bcf -b /data/Split_Bamfiles/7/OFK.7.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/8/part8.bcf -O bcf -b /data/Split_Bamfiles/8/OFK.8.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/9/part9.bcf -O bcf -b /data/Split_Bamfiles/9/OFK.9.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/10/part10.bcf -O bcf -b /data/Split_Bamfiles/10/OFK.10.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/11/part11.bcf -O bcf -b /data/Split_Bamfiles/11/OFK.11.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/12/part12.bcf -O bcf -b /data/Split_Bamfiles/12/OFK.12.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/13/part13.bcf -O bcf -b /data/Split_Bamfiles/13/OFK.13.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/14/part14.bcf -O bcf -b /data/Split_Bamfiles/14/OFK.14.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/15/part15.bcf -O bcf -b /data/Split_Bamfiles/15/OFK.15.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/16/part16.bcf -O bcf -b /data/Split_Bamfiles/16/OFK.16.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/17/part17.bcf -O bcf -b /data/Split_Bamfiles/17/OFK.17.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/18/part18.bcf -O bcf -b /data/Split_Bamfiles/18/OFK.18.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/19/part19.bcf -O bcf -b /data/Split_Bamfiles/19/OFK.19.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/20/part20.bcf -O bcf -b /data/Split_Bamfiles/20/OFK.20.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/21/part21.bcf -O bcf -b /data/Split_Bamfiles/21/OFK.21.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/22/part22.bcf -O bcf -b /data/Split_Bamfiles/22/OFK.22.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/23/part23.bcf -O bcf -b /data/Split_Bamfiles/23/OFK.23.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/24/part24.bcf -O bcf -b /data/Split_Bamfiles/24/OFK.24.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/25/part25.bcf -O bcf -b /data/Split_Bamfiles/25/OFK.25.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/26/part26.bcf -O bcf -b /data/Split_Bamfiles/26/OFK.26.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/27/part27.bcf -O bcf -b /data/Split_Bamfiles/27/OFK.27.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/28/part28.bcf -O bcf -b /data/Split_Bamfiles/28/OFK.28.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/29/part29.bcf -O bcf -b /data/Split_Bamfiles/29/OFK.29.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/30/part30.bcf -O bcf -b /data/Split_Bamfiles/30/OFK.30.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/31/part31.bcf -O bcf -b /data/Split_Bamfiles/31/OFK.31.list &
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/32/part32.bcf -O bcf -b /data/Split_Bamfiles/32/OFK.32.list 
+
+############################
+
+#BCFTools concat
+
+############################
+
+#!/bin/sh
+
+bcftools concat /data/mpileup_bcfs/1/part1.bcf \ 
+/data/mpileup_bcfs/2/part2.bcf \
+/data/mpileup_bcfs/3/part3.bcf \
+/data/mpileup_bcfs/4/part4.bcf \
+/data/mpileup_bcfs/5/part5.bcf \
+/data/mpileup_bcfs/6/part6.bcf \
+/data/mpileup_bcfs/7/part7.bcf \
+/data/mpileup_bcfs/8/part8.bcf \
+/data/mpileup_bcfs/9/part9.bcf \
+/data/mpileup_bcfs/10/part10.bcf \
+/data/mpileup_bcfs/11/part11.bcf \
+/data/mpileup_bcfs/12/part12.bcf \
+/data/mpileup_bcfs/13/part13.bcf \
+/data/mpileup_bcfs/14/part14.bcf \
+/data/mpileup_bcfs/15/part15.bcf \
+/data/mpileup_bcfs/16/part16.bcf \
+/data/mpileup_bcfs/17/part17.bcf \
+/data/mpileup_bcfs/18/part18.bcf \
+/data/mpileup_bcfs/19/part19.bcf \
+/data/mpileup_bcfs/20/part20.bcf \
+/data/mpileup_bcfs/21/part21.bcf \
+/data/mpileup_bcfs/22/part22.bcf \
+/data/mpileup_bcfs/23/part23.bcf \
+/data/mpileup_bcfs/24/part24.bcf \
+/data/mpileup_bcfs/25/part25.bcf \
+/data/mpileup_bcfs/26/part26.bcf \
+/data/mpileup_bcfs/27/part27.bcf \
+/data/mpileup_bcfs/28/part28.bcf \
+/data/mpileup_bcfs/29/part29.bcf \
+/data/mpileup_bcfs/30/part30.bcf \
+/data/mpileup_bcfs/31/part31.bcf \
+/data/mpileup_bcfs/32/part32.bcf 
+ 
