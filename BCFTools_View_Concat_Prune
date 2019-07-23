@@ -1,0 +1,49 @@
+#!/usr/bin/bash
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part1.call.bcf -o /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part1.call.vcf
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part2.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part2_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part3.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part3_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part4.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part4_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part5.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part5_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part6.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part6_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part7.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part7_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part8.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part8_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part9.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part9_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part10.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part10_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part11.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part11_concatenated.call.vcf \
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part12.call.bcf | grep -v \# >> /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part12_concatenated.call.vcf 
+
+#######
+#Cat
+#######
+
+cat /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/part1.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part2_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part3_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part4_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part5_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part6_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part7_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part8_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part9_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part10_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part11_concatenated.call.vcf /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/Part12_concatenated.call.vcf > /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/OFK_Concat_4July2019.vcf
+
+#######
+#Filter&Prune
+#######
+
+#-v snps selects for SNPs only.
+# -m2 -M2 selects for biallelic SNPs.
+# -q 0.05:minor is an MAF cutoff of 0.05 (could also use the filter MAF option, but this seems to work well)
+# MIN(FMT/DP)>5 is minimum depth of 5.
+# MAX(MFT/DP)<200 is a maximum depth of 200.
+# %QUAL>20 filters for quality above 20. 
+
+bcftools view /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/OFK_Concat_4July2019.vcf -v snps -m 2 -M 2 -q 0.05:minor -i 'MIN(FMT/DP)>5 & MAX(FMT/DP)<200 & %QUAL>20' -o /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/OFK_Concat_BCFTools_Biallelic_SNPsOnly_MAF0.05_MINDP5_MAXDP200_Q20_4July2019.vcf
+
+#prunes for LD R2 of 0.6 with a window of 1000bp
+#-e excludes sites that have more than 0.1 missingness. 
+
+bcftools +prune -l 0.6 -w 1000 -e "F_MISSING>0.1" /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/OFK_Concat_BCFTools_Biallelic_SNPsOnly_MAF0.05_MINDP5_MAXDP200_Q20_4July2019.vcf -Ov -o /media/stephanie/Data/Resequencing/OFK/Roger_SNPCalling/Part_1_12_BCFs/Original_Parts_1_12/OFK_Concat_BCFTools_Biallelic_SNPsOnly_MAF0.05_MINDP5_MAXDP200_Q20_LD0.6_Missing0.1_4July2019.vcf
