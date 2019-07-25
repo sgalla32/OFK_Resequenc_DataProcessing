@@ -1,149 +1,149 @@
 #!/bin/sh
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00578 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00578 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00578-L1_S4_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00578-L1_S4_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00579 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00579 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00579-L1_S5_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00579-L1_S5_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00580 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00580 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00580-L1_S6_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00580-L1_S6_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00581 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00581 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00581-L1_S7_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00581-L1_S7_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00582 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00582 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00582-L1_S8_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00582-L1_S8_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00583 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00583 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00583-L1_S9_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00583-L1_S9_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00584 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00584 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00584-L1_S10_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00584-L1_S10_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00585 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00585 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00585-L1_S11_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00585-L1_S11_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00586 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00586 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00586-L1_S12_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00586-L1_S12_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00587 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00587 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00587-L1_S13_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00587-L1_S13_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00588 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00588 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00588-L1_S14_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00588-L1_S14_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00589 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00589 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00589-L1_S15_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00589-L1_S15_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00590 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00590 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00590-L1_S16_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00590-L1_S16_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00591 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00591 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00591-L1_S17_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00591-L1_S17_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00592 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00592 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00592-L1_S18_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00592-L1_S18_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00593 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00593 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00593-L1_S19_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00593-L1_S19_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00594 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00594 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00594-L1_S20_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00594-L1_S20_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00595 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00595 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00595-L1_S21_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00595-L1_S21_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00596 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00596 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00596-L1_S22_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00596-L1_S22_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00597 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00597 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00597-L1_S23_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00597-L1_S23_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00598 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00598 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00598-L1_S24_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00598-L1_S24_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00599 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00599 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00599-L1_S25_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00599-L1_S25_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00600 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00600 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00600-L1_S26_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00600-L1_S26_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00601 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00601 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00601-L1_S27_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00601-L1_S27_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00602 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00602 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00602-L1_S28_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00602-L1_S28_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00603 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00603 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00603-L1_S29_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00603-L1_S29_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00604 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00604 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00604-L1_S30_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00604-L1_S30_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00605 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00605 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00605-L1_S31_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00605-L1_S31_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00606 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00606 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00606-L1_S32_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00606-L1_S32_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00607 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00607 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00607-L1_S33_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00607-L1_S33_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00608 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00608 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00608-L1_S34_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00608-L1_S34_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00609 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00609 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00609-L1_S35_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00609-L1_S35_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00610 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00610 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00610-L1_S36_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00610-L1_S36_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00611 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00611 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00611-L1_S37_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00611-L1_S37_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00612 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00612 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00612-L1_S38_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00612-L1_S38_L004_R2_001.fastq.gz
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00613 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00613 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00613-L1_S39_L004_R1_001.fastq.gz \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00613-L1_S39_L004_R2_001.fastq.gz 
 
-/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 30 --length 50 --basename OFK_pe_I00614 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
+/home/stephanie/TrimGalore-master/trim_galore --paired --trim-n --nextera --nextseq 20 --quality 30 --length 54 --basename OFK_pe_I00614 --o /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/ \
 /media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00614-L1_S40_L004_R1_001.fastq.gz \
-/media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00614-L1_S40_L004_R2_001.fastq.gz 
+/media/stephanie/Data/Resequencing/OFK/Raw_Data_and_FastQCs/I00614-L1_S40_L004_R2_001.fastq.gz
