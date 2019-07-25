@@ -99,7 +99,7 @@ done
 
 ############################
 
-perl split_bamfiles_tasks.pl -B -b /scripts/Split_Bamfiles/OFK_sorted_BAMfiles.txt -g /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -n 32 -o /data/Split_Bamfiles > list_of_tasks.sh
+perl split_bamfiles_tasks.pl -B -b /scripts/Split_Bamfiles/OFK_sorted_BAMfiles.txt -g /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -n 12 -o /data/Split_Bamfiles > list_of_tasks.sh
 
 bash list_of_tasks.sh
 
@@ -110,9 +110,6 @@ bash list_of_tasks.sh
 ############################
 #!/bin/sh
 /data/mpileup_1June2019/List_OFK_unsplit_bams.txt
-
-
-
 
 bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/1/part1.bcf -O bcf -b /data/Split_Bamfiles/1/OFK.1.list &
 bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/2/part2.bcf -O bcf -b /data/Split_Bamfiles/2/OFK.2.list &
@@ -125,27 +122,7 @@ bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a D
 bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/9/part9.bcf -O bcf -b /data/Split_Bamfiles/9/OFK.9.list &
 bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/10/part10.bcf -O bcf -b /data/Split_Bamfiles/10/OFK.10.list &
 bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/11/part11.bcf -O bcf -b /data/Split_Bamfiles/11/OFK.11.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/12/part12.bcf -O bcf -b /data/Split_Bamfiles/12/OFK.12.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/13/part13.bcf -O bcf -b /data/Split_Bamfiles/13/OFK.13.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/14/part14.bcf -O bcf -b /data/Split_Bamfiles/14/OFK.14.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/15/part15.bcf -O bcf -b /data/Split_Bamfiles/15/OFK.15.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/16/part16.bcf -O bcf -b /data/Split_Bamfiles/16/OFK.16.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/17/part17.bcf -O bcf -b /data/Split_Bamfiles/17/OFK.17.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/18/part18.bcf -O bcf -b /data/Split_Bamfiles/18/OFK.18.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/19/part19.bcf -O bcf -b /data/Split_Bamfiles/19/OFK.19.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/20/part20.bcf -O bcf -b /data/Split_Bamfiles/20/OFK.20.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/21/part21.bcf -O bcf -b /data/Split_Bamfiles/21/OFK.21.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/22/part22.bcf -O bcf -b /data/Split_Bamfiles/22/OFK.22.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/23/part23.bcf -O bcf -b /data/Split_Bamfiles/23/OFK.23.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/24/part24.bcf -O bcf -b /data/Split_Bamfiles/24/OFK.24.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/25/part25.bcf -O bcf -b /data/Split_Bamfiles/25/OFK.25.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/26/part26.bcf -O bcf -b /data/Split_Bamfiles/26/OFK.26.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/27/part27.bcf -O bcf -b /data/Split_Bamfiles/27/OFK.27.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/28/part28.bcf -O bcf -b /data/Split_Bamfiles/28/OFK.28.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/29/part29.bcf -O bcf -b /data/Split_Bamfiles/29/OFK.29.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/30/part30.bcf -O bcf -b /data/Split_Bamfiles/30/OFK.30.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/31/part31.bcf -O bcf -b /data/Split_Bamfiles/31/OFK.31.list &
-bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/32/part32.bcf -O bcf -b /data/Split_Bamfiles/32/OFK.32.list 
+bcftools mpileup -f /data/OFK_Masurca_Concat/ofk.masurca.corr1.concat.fasta -a DP,AD,ADF,ADR,SP -o /data/mpileup_bcfs/12/part12.bcf -O bcf -b /data/Split_Bamfiles/12/OFK.12.list 
 
 ############################
 
@@ -187,4 +164,3 @@ bcftools concat /data/mpileup_bcfs/1/part1.bcf \
 /data/mpileup_bcfs/30/part30.bcf \
 /data/mpileup_bcfs/31/part31.bcf \
 /data/mpileup_bcfs/32/part32.bcf 
- 
